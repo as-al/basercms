@@ -1,28 +1,27 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Project-Id-Version: baserCMS\n"
+"PO-Revision-Date: 2017-05-14 21:01+0900\n"
+"Last-Translator: \n"
+"Language-Team: baserCMS Users Community <info@basercms.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: Config/theme/bc_sample/Errors/error400.php:11
 #: View/Errors/missing_class.php:22;25
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 #: Config/theme/bc_sample/Errors/error400.php:13
 msgid "The request sent to the address %s was invalid."
-msgstr ""
+msgstr "アドレス ％s に送信されたリクエストは無効です。"
 
 #: View/Errors/missing_class.php:29
 msgid "Notice"
-msgstr ""
-
+msgstr "通知"

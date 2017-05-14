@@ -1,163 +1,144 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Project-Id-Version: baserCMS\n"
+"PO-Revision-Date: 2017-05-14 21:21+0900\n"
+"Last-Translator: \n"
+"Language-Team: baserCMS Users Community <info@basercms.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: Controller/ContentsController.php:59
 #: View/Elements/admin/submenus/contents.php:23
 msgid "Contents List"
-msgstr ""
+msgstr "コンテンツ一覧"
 
 #: Controller/ContentsController.php:62
 #: View/Elements/admin/submenus/contents.php:27
 msgid "Trash"
-msgstr ""
+msgstr "ゴミ箱"
 
 #: Controller/ContentsController.php:140
 msgid "Tree"
-msgstr ""
+msgstr "ツリー形式"
 
 #: Controller/ContentsController.php:140
 msgid "Table"
-msgstr ""
+msgstr "テーブル形式"
 
-#: View/Elements/admin/footer.php:31
-#: View/Elements/admin/header.php:32
+#: View/Elements/admin/footer.php:31 View/Elements/admin/header.php:32
 msgid "Contents"
-msgstr ""
+msgstr "コンテンツ管理"
 
-#: View/Elements/admin/footer.php:32
-#: View/Elements/admin/header.php:33
+#: View/Elements/admin/footer.php:32 View/Elements/admin/header.php:33
 msgid "Widgets"
-msgstr ""
+msgstr "ウィジェット管理"
 
-#: View/Elements/admin/footer.php:33
-#: View/Elements/admin/header.php:34
+#: View/Elements/admin/footer.php:33 View/Elements/admin/header.php:34
 msgid "Themes"
-msgstr ""
+msgstr "テーマ管理"
 
-#: View/Elements/admin/footer.php:34
-#: View/Elements/admin/header.php:35
+#: View/Elements/admin/footer.php:34 View/Elements/admin/header.php:35
 msgid "Plugins"
-msgstr ""
+msgstr "プラグイン管理"
 
-#: View/Elements/admin/footer.php:35
-#: View/Elements/admin/header.php:36
+#: View/Elements/admin/footer.php:35 View/Elements/admin/header.php:36
 msgid "System"
-msgstr ""
+msgstr "システム管理"
 
 #: View/Elements/admin/footer.php:43
 msgid "baserCMS Official Site"
-msgstr ""
+msgstr "baserCMS 公式サイト"
 
 #: View/Elements/admin/footer.php:44
 msgid "baserCMS Users Community"
-msgstr ""
+msgstr "baserCMS ユーザー会"
 
 #: View/Elements/admin/footer.php:45
 msgid "baserCMS Users Forum"
-msgstr ""
+msgstr "baserCMS ユーザーズフォーラム"
 
 #: View/Elements/admin/footer.php:46
 msgid "baserCMS Core Development Project"
-msgstr ""
+msgstr "baserCMS コア開発プロジェクト"
 
 #: View/Elements/admin/footer.php:47
 msgid "baserCMS Facebook"
-msgstr ""
+msgstr "baserCMS Facebook"
 
 #: View/Elements/admin/footer.php:48
 msgid "baserCMS Twitter"
-msgstr ""
+msgstr "baserCMS Twitter"
 
 #: View/Elements/admin/toolbar.php:64
 msgid "Install Mode"
-msgstr ""
+msgstr "インストールモード"
 
 #: View/Elements/admin/toolbar.php:66
-msgid "Debug Mode "
-msgstr ""
+msgid "Debug Mode"
+msgstr "デバッグモード"
 
 #: View/Elements/admin/toolbar.php:102
 msgid "System Navigation"
-msgstr ""
+msgstr "システムナビ"
 
 #: View/Elements/admin/contents/index_view_setting.php:23
 msgid "Site"
-msgstr ""
+msgstr "サイト"
 
 #: View/Elements/admin/contents/index_view_setting.php:27
 msgid "Display Setting"
-msgstr ""
+msgstr "表示設定"
 
 #: View/Elements/admin/contents/index_view_setting.php:30
 msgid "Expand All"
-msgstr ""
+msgstr "全て展開"
 
 #: View/Elements/admin/contents/index_view_setting.php:31
 msgid "Close All"
-msgstr ""
+msgstr "全て閉じる"
 
 #: View/Elements/admin/searches/contents_index.php:23
 msgid "Folder"
-msgstr ""
+msgstr "フォルダ"
 
 #: View/Elements/admin/searches/contents_index.php:24;32;36;40
 msgid "Not specified"
-msgstr ""
+msgstr "指定しない"
 
 #: View/Elements/admin/searches/contents_index.php:27
 msgid "Content Name"
-msgstr ""
+msgstr "コンテンツ名"
 
 #: View/Elements/admin/searches/contents_index.php:31
 msgid "Content Type"
-msgstr ""
+msgstr "コンテンツタイプ"
 
 #: View/Elements/admin/searches/contents_index.php:35
 msgid "Publish Status"
-msgstr ""
+msgstr "公開状態"
 
 #: View/Elements/admin/searches/contents_index.php:39
 msgid "Author"
-msgstr ""
+msgstr "作成者"
 
 #: View/Elements/admin/searches/contents_index.php:45
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: View/Elements/admin/searches/contents_index.php:46
 msgid "Clear"
-msgstr ""
+msgstr "クリア"
 
 #: View/Elements/admin/submenus/contents.php:20
 msgid "Contents Menu"
-msgstr ""
+msgstr "コンテンツメニュー"
 
 #: View/Elements/admin/submenus/contents.php:25
 msgid "Add Content"
-msgstr ""
-
-#: View/Errors/error400.php:17
-#: View/Errors/error500.php:17
-msgid "Error"
-msgstr ""
-
-#: View/Errors/error400.php:19
-msgid "The request sent to the address %s was invalid."
-msgstr ""
-
-#: View/Errors/error500.php:18
-msgid "An Internal Error Has Occurred."
-msgstr ""
-
+msgstr "コンテンツ新規登録"

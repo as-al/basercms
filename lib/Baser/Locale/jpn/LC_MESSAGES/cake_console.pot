@@ -1,23 +1,23 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Project-Id-Version: baserCMS\n"
+"PO-Revision-Date: 2017-05-14 21:23+0900\n"
+"Last-Translator: \n"
+"Language-Team: baserCMS Users Community <info@basercms.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.5.7\n"
+"MIME-Version: 1.0\n"
 
 #: Console/Command/BaserTestShell.php:318
 msgid "App : %s"
-msgstr ""
+msgstr "App : %s"
 
 #: Console/Command/BaserTestShell.php:319
 msgid "Path: %s"
-msgstr ""
-
+msgstr "Path: %s"

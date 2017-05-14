@@ -26,10 +26,10 @@ if ($freezed) {
 </h1>
 
 <?php if ($freezed): ?>
-	<h2 class="contents-head">入力内容の確認</h2>
-	<p class="section">入力した内容に間違いがなければ「送信する」ボタンをクリックしてください。</p>
+	<h2 class="contents-head"><?php echo __('Confirm') ?></h2>
+	<p class="section"><?php echo __('If there is no mistake in the contents entered, please click Submit button.') ?></p>
 	<?php else: ?>
-	<h2 class="contents-head">入力フォーム</h2>
+	<h2 class="contents-head"><?php echo __('Input form') ?></h2>
 <?php endif; ?>
 
 <div class="section mail-form">

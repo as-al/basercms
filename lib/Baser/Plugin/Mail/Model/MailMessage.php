@@ -175,14 +175,14 @@ class MailMessage extends MailAppModel {
 						if(!isset($this->data['MailMessage'][$mailField['field_name'] . '_tmp'])) {
 							$this->validate[$mailField['field_name']] = array('notBlank' => array(
 									'rule' => array('notFileEmpty'),
-									'message' => '必須項目です。',
+									'message' => __('It is required.'),
 									'required' => true
 							));
 						}
 					} else {
 						$this->validate[$mailField['field_name']] = array('notBlank' => array(
 								'rule' => array('notBlank'),
-								'message' => '必須項目です。',
+								'message' => __('It is required.'),
 								'required' => true
 						));
 					}
@@ -190,13 +190,13 @@ class MailMessage extends MailAppModel {
 				} elseif ($mailField['valid'] == 'VALID_EMAIL') {
 					$this->validate[$mailField['field_name']] = array('email' => array(
 							'rule' => array('email'),
-							'message' => '形式が不正です。'
+							'message' => __('Invalid format')
 					));
 				// 半角数字
 				} elseif ($mailField['valid'] == '/^([0-9]+)$/') {
 					$this->validate[$mailField['field_name']] = array(
 							'rule' => '/^([0-9]+)$/',
-							'message' => '半角数字で入力してください。'
+							'message' => __('Please enter in single-byte number.')
 					);
 				} else {
 					$this->validate[$mailField['field_name']] = $mailField['valid'];
@@ -213,7 +213,7 @@ class MailMessage extends MailAppModel {
 							if(!empty($options['maxFileSize'])) {
 								$this->validate[$mailField['field_name']]['fileSize'] = array(
 									'rule'	=> array('fileSize', $options['maxFileSize'] * 1000 * 1000),
-									'message'	=> 'ファイルサイズがオーバーしています。' . $options['maxFileSize'] . 'MB以内のファイルをご利用ください。'
+									'message'	=> __('File size is over. Please use the file of %s MB or less.', $options['maxFileSize'])
 								);
 							}
 							break;
@@ -221,7 +221,7 @@ class MailMessage extends MailAppModel {
 							if(!empty($options['fileExt'])) {
 								$this->validate[$mailField['field_name']]['fileExt'] = array(
 									'rule'	=> array('fileExt', $options['fileExt']),
-									'message'	=> 'ファイル形式が不正です。'
+									'message'	=> __('Invalid file format.')
 								);
 							}
 							break;
@@ -248,7 +248,7 @@ class MailMessage extends MailAppModel {
 				// マルチチェックボックスのチェックなしチェック
 				if (in_array('VALID_NOT_UNCHECKED', $valids)) {
 					if (empty($data['MailMessage'][$mailField['field_name']])) {
-						$this->invalidate($mailField['field_name'], '必須項目です。');
+						$this->invalidate($mailField['field_name'], __('It is required.'));
 					}
 					$dists[$mailField['field_name']][] = @$data['MailMessage'][$mailField['field_name']];
 					// datetimeの空チェック
@@ -256,7 +256,7 @@ class MailMessage extends MailAppModel {
 					if (empty($data['MailMessage'][$mailField['field_name']]['year']) ||
 						empty($data['MailMessage'][$mailField['field_name']]['month']) ||
 						empty($data['MailMessage'][$mailField['field_name']]['day'])) {
-						$this->invalidate($mailField['field_name'], '日付の形式が不正です。');
+						$this->invalidate($mailField['field_name'], __('Invalid date format.'));
 					}
 				}
 			}

@@ -222,7 +222,7 @@ class MailController extends MailAppController {
 
 		if ($this->request->is('post')) {
 			if ($_SERVER['CONTENT_LENGTH'] > (8*1024*1024)) {
-				$this->Session->setFlash('ファイルのアップロードサイズが上限を超えています。');
+				$this->setMessage(__('The upload size of the file exceeds the maximum limit.'));
 			}
 		}
 		
@@ -339,7 +339,7 @@ class MailController extends MailAppController {
 					));
 				} else {
 
-					$this->setMessage('【送信エラーです】<br />送信中にエラーが発生しました。しばらくたってから再度送信お願いします。', true);
+					$this->setMessage(__('Error : An error occurred during submission. Please wait for a while Please send.'), true);
 					$this->set('sendError', true);
 				}
 

@@ -63,7 +63,7 @@ if (!empty($currentAuthPrefix['name']) && $currentPrefix != 'front') {
 					<?php if (Configure::read('debug') == -1 && $this->name != "Installations"): ?>
 						<li>&nbsp;&nbsp;<span id="DebugMode" title="インストールモードです。運営を開始する前にシステム設定よりノーマルモードに戻しましょう。"><?php echo __d('baser', 'Install Mode') ?></span>&nbsp;&nbsp;</li>
 					<?php elseif (Configure::read('debug') > 0): ?>
-						<li>&nbsp;&nbsp;<span id="DebugMode" title="デバッグモードです。運営を開始する前にシステム設定よりノーマルモードに戻しましょう。"><?php echo __d('baser', 'Debug Mode ') ?> <?php echo mb_convert_kana(Configure::read('debug'), 'N') ?></span>&nbsp;&nbsp;</li>
+						<li>&nbsp;&nbsp;<span id="DebugMode" title="デバッグモードです。運営を開始する前にシステム設定よりノーマルモードに戻しましょう。"><?php echo __d('baser', 'Debug Mode') ?> <?php echo mb_convert_kana(Configure::read('debug'), 'N') ?></span>&nbsp;&nbsp;</li>
 					<?php endif; ?>
 				<?php endif ?>
 			</ul>

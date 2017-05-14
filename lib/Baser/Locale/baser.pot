@@ -85,7 +85,7 @@ msgid "Install Mode"
 msgstr ""
 
 #: View/Elements/admin/toolbar.php:66
-msgid "Debug Mode "
+msgid "Debug Mode"
 msgstr ""
 
 #: View/Elements/admin/toolbar.php:102

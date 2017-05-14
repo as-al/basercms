@@ -1,17 +1,17 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: baserCMS\n"
-"PO-Revision-Date: 2017-05-14 21:01+0900\n"
-"Last-Translator: \n"
-"Language-Team: baserCMS Users Community <info@basercms.net>\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: \n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: Configure/BcThemeConfigReader.php:69
 msgid "テーマの設定ファイルが存在しません : %s"
@@ -19,60 +19,57 @@ msgstr ""
 
 #: Console/Command/BaserTestShell.php:45
 msgid "Please install PHPUnit framework <info>(http://www.phpunit.de)</info>"
-msgstr "PHPUnit framework をインストールしてください。"
+msgstr ""
 
 #: Console/Command/BaserTestShell.php:205
 msgid "Test case %s cannot be run via this shell"
-msgstr "このシェルでテストケース ％s を実行することはできません。"
+msgstr ""
 
 #: Console/Command/BaserTestShell.php:218;230;245
 msgid "Test case %s not found"
-msgstr "テストケース %s が見つかりません。"
+msgstr ""
 
 #: Event/CakeEventManager.php:104
 msgid "The eventKey variable is required"
-msgstr "イベントキー変数が必要です。"
+msgstr ""
 
 #: Lib/TestSuite/Fixture/CakeFixtureManager.php:188
 msgid "Referenced fixture class %s (%s) not found"
-msgstr "参照しているフィクスチャクラス %s (%s) が見つかりません。"
+msgstr ""
 
 #: Lib/TestSuite/Fixture/CakeFixtureManager.php:296
 msgid "Referenced fixture class %s not found"
-msgstr "参照している フィクスチャクラス %s が見つかりません。"
+msgstr ""
 
 #: Model/CakeSchema.php:619
-msgid ""
-"Schema generation error: invalid column type %s for %s.%s does not exist in "
-"DBO"
+msgid "Schema generation error: invalid column type %s for %s.%s does not exist in DBO"
 msgstr ""
 
 #: Model/Datasource/DboSource.php:268
 msgid "Selected driver is not enabled"
-msgstr "選択したドライバーが有効ではありません。"
+msgstr ""
 
 #: Model/Datasource/DboSource.php:1257
 msgid "Error in Model %s"
-msgstr "モデル %s 内のエラー"
+msgstr ""
 
 #: Model/Datasource/DboSource.php:3207
 msgid "Invalid schema object"
-msgstr "無効なスキーマオブジェクトです。"
+msgstr ""
 
 #: Model/Datasource/DboSource.php:3317
 msgid "Column name or type not defined in schema"
-msgstr "カラム名、もしくは、型がスキーマに定義されていません。"
+msgstr ""
 
 #: Model/Datasource/DboSource.php:3322
 msgid "Column type %s does not exist"
-msgstr "カラムタイプ %s が存在しません。"
+msgstr ""
 
 #: Network/CakeRequest.php:492
 msgid "Method %s does not exist"
-msgstr "メソッド %s が存在しません。"
+msgstr ""
 
 #: Routing/Router.php:233
 msgid "Route class not found, or route class is not a subclass of CakeRoute"
 msgstr ""
-"ルートクラスが見つかりません。もしくは、ルートクラスが CakeRoute のサブクラス"
-"でありません。"
+

@@ -20,15 +20,15 @@ if($this->action == 'admin_index') {
 <?php if($this->action == 'admin_index'): ?>
 <div class="panel-box" id="ViewSetting">
 <?php if(count($sites) >= 2): ?>
-    <small>サイト</small> <?php echo $this->BcForm->input('ViewSetting.site_id', array('type' => 'select', 'options' => $sites)) ?>　｜　
+    <small><?php echo __d('baser', 'Site') ?></small> <?php echo $this->BcForm->input('ViewSetting.site_id', array('type' => 'select', 'options' => $sites)) ?>　｜　
 <?php else : ?>
     <?php echo $this->BcForm->input('ViewSetting.site_id', array('type' => 'hidden', 'options' => $sites)) ?>
 <?php endif ?>
-    <small>表示</small> <?php echo $this->BcForm->input('ViewSetting.list_type', array('type' => 'radio', 'options' => $listTypes)) ?>
+    <small><?php echo __d('baser', 'Display Setting') ?></small> <?php echo $this->BcForm->input('ViewSetting.list_type', array('type' => 'radio', 'options' => $listTypes)) ?>
     <span id="GrpChangeTreeOpenClose">
         　｜　
-        <button id="BtnOpenTree" class="button-small">全て展開する</button>　
-        <button id="BtnCloseTree" class="button-small">全て閉じる</button>
+        <button id="BtnOpenTree" class="button-small"><?php echo __d('baser', 'Expand All') ?></button>　
+        <button id="BtnCloseTree" class="button-small"><?php echo __d('baser', 'Close All') ?></button>
     </span>
 </div>
 <?php endif ?>

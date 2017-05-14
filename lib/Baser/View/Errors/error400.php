@@ -14,9 +14,9 @@
 
 <h2><?php echo $message; ?></h2>
 <p class="error">
-	<strong><?php echo __d('cake', 'Error'); ?>: </strong>
+	<strong><?php echo __d('baser', 'Error'); ?>: </strong>
 	<?php printf(
-		__d('cake', 'The request sent to the address %s was invalid.'),
+		__d('baser', 'The request sent to the address %s was invalid.'),
 		"<strong>'{$url}'</strong>"
 	); ?>
 </p>

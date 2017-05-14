@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: baserCMS\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-05-14 22:18+0900\n"
+"PO-Revision-Date: 2017-05-14 22:40+0900\n"
 "Last-Translator: \n"
 "Language-Team: baserCMS Users Community <info@basercms.net>\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,10 @@ msgstr "エラー"
 #: Config/theme/bc_sample/Errors/error400.php:13 View/Errors/error400.php:19
 msgid "The request sent to the address %s was invalid."
 msgstr "アドレス ％s に送信されたリクエストは無効です。"
+
+#: Plugin/Mail/Controller/MailController.php:260
+msgid "Error : Confirm your entries and send again."
+msgstr "エラー : 入力内容を確認して再度送信してください。"
 
 #: View/Errors/error500.php:18
 msgid "An Internal Error Has Occurred."

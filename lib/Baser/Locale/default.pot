@@ -25,6 +25,10 @@ msgstr ""
 msgid "The request sent to the address %s was invalid."
 msgstr ""
 
+#: Plugin/Mail/Controller/MailController.php:260
+msgid "【入力エラーです】<br />入力内容を確認して再度送信してください。"
+msgstr ""
+
 #: View/Errors/error500.php:18
 msgid "An Internal Error Has Occurred."
 msgstr ""
